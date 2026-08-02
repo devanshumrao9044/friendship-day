@@ -40,7 +40,7 @@ export const photos: Photo[] = [
     id: "hug",
     src: catsHug,
     alt: "Two cartoon cats hugging each other",
-    caption: "airport hug, five minutes long",
+    caption: "We haven't met yet but A friendship that never needed distance to feel close.",
     width: 1024,
     height: 1024,
   },
@@ -64,7 +64,7 @@ export const photos: Photo[] = [
     id: "tulips",
     src: tulipNote,
     alt: "Hand drawn pink tulips surrounded by little hearts",
-    caption: "you drew this on my notebook and never admitted it",
+    caption: "a little doodle that reminded me of you."
     width: 1024,
     height: 1280,
   },
