@@ -64,7 +64,7 @@ export const photos: Photo[] = [
     id: "tulips",
     src: tulipNote,
     alt: "Hand drawn pink tulips surrounded by little hearts",
-    caption: "a little doodle that reminded me of you."
+    caption: "a little doodle that reminded me of you.",
     width: 1024,
     height: 1280,
   },
@@ -104,7 +104,7 @@ export const timeline: TimelineEntry[] = [
   },
   {
     year: "first year",
-    title: "the 2am phone massages",
+    title: "the 2am phone messages",
     body: "Nothing important, ever. Just the comfort of someone staying on the line until one of us fell asleep.",
     image: frogDoodle,
     alt: "A crayon frog doodle",
