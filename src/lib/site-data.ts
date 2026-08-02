@@ -72,7 +72,7 @@ export const photos: Photo[] = [
     id: "frog",
     src: frogDoodle,
     alt: "A crayon doodle of a green frog with a heart",
-    caption: "our entire inside joke, illustrated",
+    caption: "Sometimes the people who understand your pain become the ones who stay.",
     width: 1024,
     height: 1024,
   },
