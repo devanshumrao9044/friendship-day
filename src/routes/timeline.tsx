@@ -10,7 +10,7 @@ export const Route = createFileRoute("/timeline")({
       { title: "Our Timeline — Friendship Day" },
       {
         name: "description",
-        content: "The story of us, year by year: how we met, the 3am calls, and everything after.",
+        content: "The story of us, year by year: how we met, the 2am messages, and everything after.",
       },
       { property: "og:title", content: "Our Timeline — Friendship Day" },
       { property: "og:description", content: "The story of us, year by year." },
