@@ -96,15 +96,15 @@ export type TimelineEntry = {
 
 export const timeline: TimelineEntry[] = [
   {
-    year: "the beginning",
-    title: "we met and instantly argued",
-    body: "About something so small neither of us remembers it. We have been talking every day since.",
+    year: "The beginning",
+    title: "One unexpected message",
+    body: "It all started with a simple message on Telegram. We were complete strangers, but one conversation turned into countless chats, laughs, and memories neither of us expected.",
     image: catsLaugh,
     alt: "Two cartoon cats laughing together",
   },
   {
     year: "first year",
-    title: "the 3am phone calls",
+    title: "the 2am phone massages",
     body: "Nothing important, ever. Just the comfort of someone staying on the line until one of us fell asleep.",
     image: frogDoodle,
     alt: "A crayon frog doodle",
