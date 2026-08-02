@@ -140,10 +140,10 @@ export type FlipCard = {
 };
 
 export const flipCards: FlipCard[] = [
-  { id: "f1", image: lilyCat, alt: "Cat in a lily", back: "still one of the funniest nights of my life." },
-  { id: "f2", image: catsHug, alt: "Cats hugging", back: "nothing happened this day. that was the best part." },
+  { id: "f1", image: lilyCat, alt: "Cat in a lily", back: "Some days we just talked. Somehow, that was enough." },
+  { id: "f2", image: catsHug, alt: "Cats hugging", back: "We didn't fix each other's pain, but we never had to face it alone."},
   { id: "f3", image: catRose, alt: "Kitten with a rose", back: "you left this on my desk and pretended you didn't." },
-  { id: "f4", image: flowerBasket, alt: "Basket of roses", back: "four hours at a market for eight flowers." },
+  { id: "f4", image: flowerBasket, alt: "Basket of roses", back: "One day, we'll spend hours choosing flowers together—and every minute will be worth it." },
   { id: "f5", image: tulipNote, alt: "Tulip doodle", back: "i love you the mostest — your words, not mine." },
   { id: "f6", image: frogDoodle, alt: "Frog doodle", back: "ILYSM. that's the whole message." },
 ];
@@ -210,7 +210,7 @@ export const letters: Letter[] = [
     date: "the one I kept rewriting",
     body: [
       "Some people are weather. You're climate.",
-      "You made the bad year survivable and the good year twice as loud. You drove out at midnight. You sat with me in silence when talking would have ruined it.",
+      "You made the bad time survivable and the good time twice as loud. You drove out at midnight. You sat with me in silence when talking would have ruined it.",
       "I don't say thank you enough, so here it is in writing where you can't interrupt me.",
     ],
   },
