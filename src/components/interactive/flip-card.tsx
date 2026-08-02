@@ -18,7 +18,7 @@ export function FlipCard({ image, alt, back }: Props) {
       className="flip-scene group block w-full touch-manipulation"
     >
       <div
-        className="flip-inner relative aspect-4/5 w-full"
+        className="flip-inner relative w-full h-[520px] md:h-[580px]"
         style={{ transform: flipped ? "rotateY(180deg)" : undefined }}
       >
         <div className="flip-face absolute inset-0 overflow-hidden rounded-3xl bg-card p-3 shadow-soft transition-shadow group-hover:shadow-lift">
@@ -35,11 +35,14 @@ export function FlipCard({ image, alt, back }: Props) {
             ✿
           </span>
         </div>
+
         <div
-          className="flip-face absolute inset-0 grid place-items-center rounded-3xl bg-paper p-6 shadow-lift"
+          className="flip-face absolute inset-0 grid place-items-center overflow-hidden rounded-3xl bg-paper p-6 shadow-lift"
           style={{ transform: "rotateY(180deg)" }}
         >
-          <p className="font-hand text-2xl leading-snug text-foreground">{back}</p>
+          <p className="px-2 text-center font-hand text-xl leading-relaxed text-foreground break-words">
+            {back}
+          </p>
         </div>
       </div>
     </button>
