@@ -143,7 +143,7 @@ export const flipCards: FlipCard[] = [
   { id: "f1", image: lilyCat, alt: "Cat in a lily", back: "Some days we just talked. Somehow, that was enough." },
   { id: "f2", image: catsHug, alt: "Cats hugging", back: "We didn't fix each other's pain, but we never had to face it alone."},
   { id: "f3", image: catRose, alt: "Kitten with a rose", back: "you left this on my desk and pretended you didn't." },
-  { id: "f4", image: flowerBasket, alt: "Basket of roses", back: "One day, we'll spend hours choosing flowers together—and every minute will be worth it." },
+  { id: "f4", image: flowerBasket, alt: "Basket of roses", back: "One day, we'll spend hours choosing the perfect flowers."},
   { id: "f5", image: tulipNote, alt: "Tulip doodle", back: "i love you the mostest — your words, not mine." },
   { id: "f6", image: frogDoodle, alt: "Frog doodle", back: "ILYSM. that's the whole message." },
 ];
